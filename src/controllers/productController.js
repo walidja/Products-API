@@ -19,9 +19,9 @@ await DBConnection.getInstance().sync();
  */
 export const addProduct = (req, res) => {
   console.log(req);
-  const product = Product.create(req.body)
+  Product.create(req.body)
     .then((value) => {
-      res.send(`Product create successfully!\n${product}`);
+      res.send(`Product create successfully!\n${value}`);
     })
     .catch((reason) => {
       res
