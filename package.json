@@ -1,0 +1,19 @@
+{
+  "name": "node_express_sql",
+  "version": "1.0.0",
+  "description": "Creating API for changeing products",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./index.js -e js"
+  },
+  "author": "walid jalhoom",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.5"
+  }
+}
